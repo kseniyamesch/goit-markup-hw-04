@@ -117,12 +117,18 @@ margin-right: 50px;}
 }
 .header-contacts-link {
     color: var(--primary-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .header-contacts-link:hover, .header-contacts-link:focus {
     color: var(--accent-color);
 }
-
+.header-icon {
+    fill: currentColor; 
+    margin-right: 10px;
+}
 /* ...................................hero-main.................................... */
 .hero {
     background-color: #2F303A;
@@ -279,7 +285,7 @@ color: var(--primary-text-color);
 }
 .team-social {
     display: flex;
-    justify-content: center
+    justify-content: center;
     padding-right: 32px;
     padding-left: 32px;
     margin-top: 16px;}
@@ -337,9 +343,10 @@ margin-bottom: 50px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
 }
-.client-item:last-child) {
-margin-right: 0;
+.client-item:last-child {
+    margin-right: 0;
 }
+
 .client-link {
     display: flex;
     justify-content:center;
@@ -454,6 +461,7 @@ padding: 6px 22px;
 .portfolio-btn:hover, .portfolio-btn:focus {
     color: var(--secondary-title-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
 /* ...................................projects .........................*/
