@@ -266,7 +266,9 @@ border-radius: 0px 0px 4px 4px;
     .team-item:not(:last-child) {
 margin-right: 30px;
     }
-
+.team-img {
+    display: block;
+}
 .team-title {
     font-weight: 500;
 font-size: 16px;
@@ -389,6 +391,9 @@ margin-bottom: 9px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-right {
+    margin-left: 70px;
+}
 .footer-link:focus, .footer-link:hover {
     color: var(--accent-color);
 }
@@ -428,7 +433,7 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     
 }
 /* .....................................portfolio-buttons............................ */
